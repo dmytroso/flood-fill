@@ -8,6 +8,9 @@ public interface FloodFill {
     static FloodFill getInstance() {
         return new FloodFill() {
 
+
+
+
             @Override
             public void flood(String map, FloodLogger logger) {
                 logger.log(map);
